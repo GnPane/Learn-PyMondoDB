@@ -1,2 +1,2 @@
 # Learn-PyMondoDB
-Изучаем MondoDB & PyMondo :-)
+Изучаем *MondoDB* & *PyMondo* :-)
