@@ -28,3 +28,6 @@ print(collection.count_documents({'Age': {'$eq': age}}))
 print()
 print("Кол-во персон = 36, 35, 34, 6 лет")
 print(collection.count_documents({'Age': {'$in': [36, 35, 34, 6]}}))
+
+
+print(collection.find_one({'last_name': 'Erina'}).get('first_name'))
